@@ -34,8 +34,3 @@ export interface SchoolData {
     [groupName: string]: GroupData;
   };
 }
-
-export interface ChartDataItem {
-    name: string;
-    value: number;
-}

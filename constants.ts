@@ -1,5 +1,5 @@
 
-import { SchoolData } from './types';
+import { SchoolData } from './types.ts';
 
 export const SCHOOL_DATA: SchoolData = {
     overall: {
@@ -155,5 +155,3 @@ export const SCHOOL_DATA: SchoolData = {
         }
     }
 };
-
-export const CHART_COLORS = ['#0d9488', '#0891b2', '#0284c7', '#4338ca', '#6d28d9', '#a21caf', '#be185d'];
